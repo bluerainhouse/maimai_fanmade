@@ -1,3 +1,0 @@
-Command line:
-"D:/Downloads/Compressed/Release/MajdataView_Data/StreamingAssets\\ffmpeg.exe" -hide_banner -y -f rawvideo -vcodec rawvideo -pix_fmt rgba -s 1920x1080 -r 60 -i "\\\\.\\pipe\\majdataRec" -i out.wav -vf vflip -c:v libx264 -preset fast -pix_fmt yuv420p -b:a 320k -c:a aac out.mp4
-Guessed Channel Layout for Input Stream #1.0 : stereo
